@@ -1,0 +1,102 @@
+/* PAGINA PRINCIPAL */
+body{
+    width: auto;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background: rgba(22, 16, 46, 0.99);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.PriCont{
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+
+
+}
+.logo{
+    position: absolute;
+
+
+}
+
+.imgarcade img{
+    min-height: 1000px;
+    width: 650px;
+    margin: 0px;
+    mix-blend-mode: screen;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clip-path: polygon(100% 0, 75% 50%, 100% 100%, 0 100%, 1% 0 );
+
+
+
+}
+.imgeducation img{
+    position: relative;
+    min-height: 1000px;
+    width: 650px;
+    margin: 0;
+    mix-blend-mode: screen;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
+}
+.txtarcade{
+    position: absolute;
+    left:11.36%;
+    right: 67.77%;
+    top: 87%;
+    bottom: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #ffffff52;
+    border-radius: 30px;
+    padding: 35px 10px 10px 13px;
+    text-shadow: rgb(49, 49, 49) 10px 1px 3px;
+}
+.txteducation{
+    position: absolute;
+    left: 67.9%;
+    right: 2%;
+    top: 7.84%;
+    bottom: 83.47%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    text-decoration: none;
+    background-color: #ffffff52;
+    border-radius: 30px;
+    padding: 33px 10px 10px 13px;
+    text-shadow: rgb(70, 70, 70) 10px 1px 3px;
+}
+.txteducation:hover{
+    background: #ffffff52;
+    box-shadow: 0 0 10px #ffffff52, 0 0 40px #ffffff52, 0 0 80px;
+}
+.txtarcade:hover{
+    background: #ffffff52;
+    box-shadow: 0 0 10px #ffffff52, 0 0 40px #ffffff52, 0 0 80px;
+}
