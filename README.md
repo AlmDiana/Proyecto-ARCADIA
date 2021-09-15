@@ -14,7 +14,7 @@ Realizado por:
 
 FIREBASE
 
-Firebase es una plataforma la cual nos facilitara el manejo de usuarios
+Firebase es una plataforma la cual nos facilitara el manejo de usuarios gracias a sus herramientas y funcionalidades las cuales nos permiten hacer hosting, almacenar datos, entr muchas otras más. 
 
 ## 2.- Funcionalidades Principales
 
