@@ -1,0 +1,592 @@
+/* PAGINA PRINCIPAL */
+.bigcontainer_PPrincipal{
+    width: 1406px;
+    max-width: 100%;
+    height:auto;
+    background: rgba(22, 16, 46, 0.99);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.background{
+    display: flex;
+    align-items: center;
+    background: rgba(22, 16, 46, 0.99);
+    background-image: url(../Recursos/LogoArcadia.png);
+    background-size: 362px 294px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+.imgarcade {
+    background-image: url("../Recursos/IzquierdaPagprincipal.jpg");
+    width: 725px;
+    max-width: 100%;
+    height: 715px;
+    mix-blend-mode: screen;
+    clip-path: polygon(100% 0, 81% 55%, 100% 100%, 0 100%, 0 0);
+    background-size: cover;
+}
+.imgeducation{
+    background-image: url("../Recursos/DerechoPagprincipal.jpg");
+    width: 725px;
+    max-width: 100%;
+    height: 715px;
+    left: 683px;
+    mix-blend-mode: screen;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 55%);
+    background-size: cover;
+}
+.buttons .txtarcade{
+    position: absolute;
+    left:11.36%;
+    bottom: 5.4%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 370%;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #ffffff52;
+    border-radius: 30px;
+    padding: 35px 10px 36px 13px;
+    text-shadow: rgb(49, 49, 49) 10px 1px 3px;
+}
+.buttons .txteducation{
+    position: absolute;
+    left: 64.9%;
+    top: 4.84%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 370%;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #ffffff52;
+    border-radius: 30px;
+    padding: 33px 10px 36px 13px;
+    text-shadow: rgb(70, 70, 70) 10px 1px 3px;
+}
+/* INICIAR SESIÓN Y REGISTRO */
+.bigcontainer_InicioRegistro{
+    width: 1441px;
+    max-width: 100%;
+    height:auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    position: relative;
+}
+.background2{
+    display: flex;
+    align-items: center;
+    height: 715px;
+    background-image: url(../Recursos/IniciarSesion.png);
+    background-size: 1441px 715px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+}
+.clogin{
+    position: absolute;
+    left: 2.7%;
+    top: 21.09%;
+    background: rgba(196, 196, 196, 0.534);
+    border-radius: 52px;
+    text-shadow: rgb(49, 49, 49) 1px 1px 3px;
+    padding: 0% 0% 33% 42%;
+    width: 25px;
+    height: 25px;
+    
+    
+}
+#inis{
+    position: absolute;
+    left: 9.56%;
+    top: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: rgb(49, 49, 49) 1px 1px 3px;
+
+}
+
+.login{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #3f15a1;
+}
+.seccionlogin{
+    position: absolute;
+    left: 135px;
+    top:45px;
+
+}
+
+.login label{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 33px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+}
+.login .user{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+}
+
+.login .key{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 33px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.login Input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    background: rgba(253, 253, 253, 0.534);
+    border-radius: 15px;
+    resize: none;
+    width: 312px;
+    height: 51px;
+    line-height: 39px;
+}
+
+.recordar{
+    position: absolute;
+    left: 175x;
+    top: 265px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.signup #btnplay{
+    position: absolute;
+    left: 34.82%;
+    top: 72.91%;
+    /*transform: translate(-50%, -50%);*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3D42AD;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 24px 10px 12px 11px;
+}
+.signup #alter{
+    
+    position: absolute;
+    left: 28.77%;
+    top: 89.64%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 111%;
+    line-height: 134%;
+    display: flex;  
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+}
+.signup #alter a{
+    color: #FFFFFF;
+}
+.background2 #arcadiaL{
+    position: absolute;
+    width: 28%;
+    max-width: 100%;
+    height: 43%;
+    left: 46%;
+    top: 49%;
+}
+
+.footer{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    background-color: rgba(22, 16, 46, 0.99);
+    text-align: center;
+    padding: 10px;
+    color: seashell;
+}
+
+/* SELECCION DE JUEGO ARCADE */
+.container_selecarcade{
+    width: 1441px;
+    max-width: 100%;
+    height:auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    position: relative;
+}
+.background3{
+    display: flex;
+    align-items: center;
+    height: 715px;
+    background-image: url(../Recursos/seleccionArcade.jpg);
+    background-size: 1441px 715px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+}
+
+.background3 #seleccion{
+    position: absolute;
+    width: 385px;
+    height: 63px;
+    left: 21px;
+    top: -5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color:rgba(55, 19, 97, 0.781); 
+    border-radius: 30px;
+    padding: 35px 10px 10px 13px;
+    text-shadow: rgb(49, 49, 49) 10px 1px 3px;
+}
+
+.control{
+    position: absolute;
+    background-image: url(../Recursos/controller1.png);
+    width: 216px;
+    height: 212px;
+    left: 398px;
+    top: 0px;
+    background-size: 105px;
+    background-repeat: no-repeat;
+}
+
+#blackjack{
+    position: absolute;
+    width: 393px;
+    height: 386px;
+    left: 276px;
+    top: 228px;
+    background: url(../Recursos/blackjack.png);
+    border-radius: 120px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+#buscaminas{
+    position: absolute;
+    width: 377px;
+    height: 386px;
+    left: 796px;
+    top: 212px;
+    background: url(../Recursos/buscaminas.png);
+    border-radius: 120px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+#memoria{
+    position: absolute;
+    width: 370px;
+    height: 368px;
+    left: 543px;
+    top: 419px;
+    background: url(../Recursos/mentales.png);
+    border-radius: 62px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+
+#txtbj{
+    position: absolute;
+    width: 230px;
+    height: 57px;
+    left: -226px;
+    top: 55px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(71, 87, 226, 0.459);
+}
+
+#txtbuscam{
+    position: absolute;
+    width: 285px;
+    height: 57px;
+    left: 243px;
+    top: 68px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(71, 87, 226, 0.459);
+}
+
+#txtmem{
+    position: absolute;
+    width: 285px;
+    height: 57px;
+    left: 244px;
+    top: 75px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(71, 87, 226, 0.459);
+}
+
+/* SELECCION DE JUEGO EDUCACION */
+.background3edu{
+    display: flex;
+    align-items: center;
+    height: 715px;
+    background-image: url(../Recursos/fondoedu.png);
+    background-size: 1441px 715px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+}
+
+.smile{
+    position: absolute;
+    background-image: url(../Recursos/smile.png);
+    width: 216px;
+    height: 212px;
+    left: 398px;
+    top: 0px;
+    background-size: 105px;
+    background-repeat: no-repeat;
+}
+
+.background3edu #seleccion{
+    position: absolute;
+    width: 385px;
+    height: 63px;
+    left: 21px;
+    top: -5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color:rgba(55, 19, 97, 0.781); 
+    border-radius: 30px;
+    padding: 35px 10px 10px 13px;
+    text-shadow: rgb(49, 49, 49) 10px 1px 3px;
+}
+
+#cuento1{
+    position: absolute;
+    width: 393px;
+    height: 386px;
+    left: 276px;
+    top: 228px;
+    background: url(../Recursos/rapunzel.jpg);
+    border-radius: 120px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+#cuento2{
+    position: absolute;
+    width: 377px;
+    height: 386px;
+    left: 796px;
+    top: 212px;
+    background: url(../Recursos/gansooro.jpg);
+    border-radius: 120px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+#cuento3{
+    position: absolute;
+    width: 370px;
+    height: 368px;
+    left: 543px;
+    top: 419px;
+    background: url(../Recursos/pinocho.jpg);
+    border-radius: 62px;
+    background-size: 248px;
+    background-repeat: no-repeat;
+}
+
+#txtc1{
+    position: absolute;
+    width: 230px;
+    height: 57px;
+    left: -230px;
+    top: 68px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(223, 128, 20, 0.973);
+}
+
+#txtc2{
+    position: absolute;
+    width: 285px;
+    height: 57px;
+    left: 248px;
+    top: 44px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(223, 128, 20, 0.973);
+}
+
+#txtc3{
+    position: absolute;
+    width: 285px;
+    height: 57px;
+    left: 248px;
+    top: 75px;
+    font-family: Inter;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: center;
+    color: #F3E0E0;
+    background-color: rgba(223, 128, 20, 0.973);
+}
+
+.listajuegos{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/*BLACK JACK*/
+.backgroundblack{
+    display: flex;
+    align-items: center;
+    height: 715px;
+    background-image: url(../Recursos/bj.jpg);
+    background-size: 1441px 715px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+    mix-blend-mode: hard-light;
+}
+
+/*BUSCAMINAS*/
+.backgroundbusca{
+    display: flex;
+    align-items: center;
+    height: 715px;
+    background-image: url(../Recursos/explode.jpg);
+    background-size: 1441px 715px;
+    background-position: 59% 47.1%;
+    background-repeat: no-repeat;
+    mix-blend-mode: hard-light;
+}
+
+.cardBJ{
+    position: absolute;
+    left: 224px;
+    top: 81px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #f7f6fa;
+    background-color: #090c9cc7;
+    border-radius: 30px;
+    padding: 35px 10px 10px 13px;
+    text-shadow: rgb(49, 49, 49) 10px 1px 3px;
+}
+.backgroundblack .txtcomingsoon{
+    position: absolute;
+    left: 784px;
+    top: 479px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #7216a7be;
+    border-radius: 30px;
+    padding: 33px 10px 36px 13px;
+    text-shadow: rgb(70, 70, 70) 10px 1px 3px;
+}
+.backgroundbusca .txtcomingsoon{
+    position: absolute;
+    left: 784px;
+    top: 479px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #7216a7be;
+    border-radius: 30px;
+    padding: 33px 10px 36px 13px;
+    text-shadow: rgb(70, 70, 70) 10px 1px 3px;
+}
+
+.playstop{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    background-color:black;
+    color: darkorange;
+    border-radius: 15px;
+    border-color: black;
+    width: 120px;
+    height: 53px;
+}
+
+.app .asistente{
+    position: absolute;
+    left:11.36%;
+    bottom: 5.4%;
+    background-image: url("../Recursos/asistente-digital.png");
+    mix-blend-mode: screen;
+    clip-path: polygon(100% 0, 81% 55%, 100% 100%, 0 100%, 0 0);
+    background-size: cover;
+}
+/*cuento1*/
+
