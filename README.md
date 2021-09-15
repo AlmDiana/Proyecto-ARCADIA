@@ -14,6 +14,8 @@ Realizado por:
 
 FIREBASE
 
+
+
 ## 2.- Funcionalidades Principales
 
 Al desarrollar este aplicativo web se pudo encontrar funcionalidades indispensables para el mismo, los principales se mostraran a continucaion.
