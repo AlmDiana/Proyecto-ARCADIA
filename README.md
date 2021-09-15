@@ -28,9 +28,9 @@ Al ser una apliacion con dos secciones relevantes, es necesario indicar que esta
 
 Es importante mostrar nuestra lista de juegos, por lo cual se implemento un menu general con los juego desarrollados y tambien referenciando a los que se encuentran aun en fase de desarrollo
 
-####Menú Arcade
+### - Menú Arcade
 ![image](https://user-images.githubusercontent.com/65979995/133364178-f4983c49-aa31-4e94-a646-9a821bdbc68a.png)
-####Menú Infantil
+### - Menú Infantil
 ![image](https://user-images.githubusercontent.com/65979995/133364227-46ee53eb-1f0d-44df-b911-91c628c7c9a6.png)
 
 
