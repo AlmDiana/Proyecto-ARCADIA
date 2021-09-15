@@ -8,10 +8,11 @@ Realizado por:
 - Almeida Diana 
 - Cevallos Mateo 
 - Singaña Josue 
-- Soledispa Christian 
+- Soledispa Christian.
 
 ## 1.-Herramientas de desarrollo
 
 FIREBASE
 
 ## 2.- Estructura
+
