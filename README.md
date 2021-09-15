@@ -33,4 +33,10 @@ Es importante mostrar nuestra lista de juegos, por lo cual se implemento un menu
 ### - Menú Infantil
 ![image](https://user-images.githubusercontent.com/65979995/133364227-46ee53eb-1f0d-44df-b911-91c628c7c9a6.png)
 
+###Contenido Interactivo
+Es importante tener en cuenta que cada pantalla tendra una extructura similar, esto para evitar que el usuario se pierda y no sepa como manipularlo.
+
+### - Pantalla de juegos
+
+![WhatsApp Image 2021-09-14 at 07 51 58 (1)](https://user-images.githubusercontent.com/65979995/133364645-553fdfcd-5a22-4efc-8936-b5782b69da8e.jpeg)
 
