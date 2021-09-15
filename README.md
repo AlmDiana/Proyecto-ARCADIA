@@ -14,7 +14,7 @@ Realizado por:
 
 FIREBASE
 
-Firebase es una aplicacción en la nube para servicio web o movil la cual nos facilitara el manejo de usuarios gracias a sus herramientas y funcionalidades las cuales nos permiten hacer hosting, almacenar datos, entr muchas otras más. 
+Firebase es una aplicacción en la nube para servicio web o movil la cual nos facilitara el manejo de usuarios gracias a sus herramientas y funcionalidades las cuales nos permiten hacer hosting, almacenar datos, entre otras más. Nos permite que el trabajo de creación de aplicaciones web sea mucho más rapido sin perder su alta calidad. 
 
 ## 2.- Funcionalidades Principales
 
