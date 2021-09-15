@@ -14,7 +14,7 @@ Realizado por:
 
 FIREBASE
 
-
+Firebase es una plataforma la cual nos facilitara el manejo de usuarios
 
 ## 2.- Funcionalidades Principales
 
