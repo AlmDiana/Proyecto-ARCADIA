@@ -5,10 +5,10 @@ El siguiente proyecto consistia en un aplicativo web referente a juegos, de los 
 Video Explicativo: 
 
 Realizado por:
--Almeida Diana
--Cevallos Mateo
--Singaña Josue
--Soledispa Christian
+- Almeida Diana 
+- Cevallos Mateo 
+- Singaña Josue 
+- Soledispa Christian 
 
 ## 1.-Herramientas de desarrollo
 
